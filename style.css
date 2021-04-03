@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.images{
+    text-align: center;
+}
+
+img{
+    width: 272px;
+    margin-top: 12%;
+}
+
+div{
+    position: relative;
+}
+
+form{
+    text-align: center;
+}
+
+form div input{
+    margin-top: 1.8%;
+    height: 45px;
+    width: 575px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    padding-left: 40px;
+}
+
+form div input:focus{
+    outline: none;
+    border: 1px solid rgb(202, 199, 199);
+    box-shadow: 0 0 5px rgb(168, 164, 164);
+
+}
+
+form div input:hover{
+    border: 1px solid rgb(202, 199, 199);
+    box-shadow: 0 0 5px rgb(168, 164, 164);
+}
+
+.search_field svg{
+    position: relative;
+    left: 40px;
+    margin: auto;
+    top: 8px;
+}
+
+.voiceicon svg{
+    width: 25px;
+    position: relative;
+    bottom: 35px;
+    left: 270px;
+}
+
+
+form > input{
+    padding: 10px 18px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background-color: #f8f9fa;
+    font-size: 14px;
+} 
+
+form > input:hover{
+    border: 1px solid #f8f9fa;
+    box-shadow: 0 0 3px gray;
+}
+
+input + input{
+    margin-left: 10px;
+}
+
+#icon{
+    color: blue;
+    width: 10%;
+    position: relative;
+    left: 55.5%;
+    top: -3%;
+}
+span{
+    position: absolute;
+}
+
+.header__link{
+    color: blue;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+}
